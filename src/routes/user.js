@@ -10,7 +10,7 @@ const router = new Router();
 // router.get('/', loginRequired, userController.show); // Mostrar um usuário pelo id
 
 // Rotas que devem existir para essa aplicação
-router.post('/', loginRequired, userController.store); // Criar usuário
+router.post('/', userController.store); // Criar usuário
 router.put('/', loginRequired, userController.update); // Atualizar dados do usuário
 router.delete('/', loginRequired, userController.delete); // Deletar usuário
 
