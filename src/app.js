@@ -16,7 +16,6 @@ import alunoRoutes from './routes/aluno';
 import fotoRoutes from './routes/foto';
 
 const whiteList = [
-  'https://react1.kiwii.com.br',
   'http://localhost:3000',
 ];
 
